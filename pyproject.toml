@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chatgptapp"
+version = "0.1.0"
+description = "script para probar el uso de chatGPT"
+authors = ["ivtransgruasortiz <ivtransgruasortiz@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+openai = "^0.27.4"
+typer = "^0.7.0"
+rich = "^13.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
